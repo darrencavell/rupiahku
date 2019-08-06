@@ -38,8 +38,7 @@ const wording = nominal => {
     }
     if (nominal < ONE_BILLION)
       return _nominalWording(Math.floor(nominal / ONE_MILLION)) + 'Juta ' + _nominalWording(nominal % ONE_MILLION);
-    if (nominal < ONE_TRILLION)
-      return _nominalWording(Math.floor(nominal / ONE_BILLION)) + 'Miliar ' + _nominalWording(nominal % ONE_BILLION);
+    return _nominalWording(Math.floor(nominal / ONE_BILLION)) + 'Miliar ' + _nominalWording(nominal % ONE_BILLION);
   }
   if (_isNominalValid(nominal))
     return 'Nol Rupiah';
