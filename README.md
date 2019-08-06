@@ -1,12 +1,10 @@
-![rupiahku](https://user-images.githubusercontent.com/32709094/62523190-c5e48f00-b822-11e9-9518-555e1e089fa8.png)
+# rupiahku #
+Rupiahku is a dependency to convert rupiah nominal into wording. Rupiah can hold up to 1 Trillion nominal to be converted.
 
-rupiahku is a dependency to convert rupiah nominal into wording. Rupiah can hold up to 1 Trillion nominal to be converted.
+[![rupiahku-npm](https://user-images.githubusercontent.com/32709094/62511866-21a01f80-b805-11e9-97f6-a5a04c940bce.png)](https://www.npmjs.com/package/rupiahku)
 
-[![rupiahku-npm](https://user-images.githubusercontent.com/32709094/62524046-7737f480-b824-11e9-807e-c34338373387.png)](https://www.npmjs.com/package/rupiahku)
-[![rupiahku-travis-ci](https://travis-ci.org/darrencavell/rupiahku.svg?branch=master)](https://travis-ci.org/darrencavell/rupiahku.svg?branch=master)
-[![rupiahku-coveralls](https://coveralls.io/repos/github/darrencavell/rupiahku/badge.svg?branch=master)](https://coveralls.io/github/darrencavell/rupiahku?branch=master)
 
-## Installation ##
+## INSTALLATION ##
 All you need to is to `npm install rupiahku`.
 
 ## Usability ##
