@@ -1,4 +1,4 @@
-const wording = nominal => {
+const wording = (nominal, currency) => {
   const _isNominalValid = (nominal) => {
     const regex = new RegExp(/^\d+$/);
     return !regex.test(nominal);
@@ -42,7 +42,7 @@ const wording = nominal => {
   }
   if (_isNominalValid(nominal))
     return 'Nol Rupiah';
-  return _nominalWording(nominal) + 'Rupiah';
+  return _nominalWording(nominal) + currency;
 }
 module.exports = {
   wording
