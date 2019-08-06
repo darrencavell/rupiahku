@@ -1,6 +1,6 @@
 {
   "name": "rupiahku",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "use this package to convert a given amount of Indonesian money into words",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/darrencavell/rupiah.git"
+    "url": "git+https://github.com/darrencavell/rupiahku.git"
   },
   "keywords": [
     "indonesian",
@@ -19,10 +19,14 @@
   "author": "Darren Cavell",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/darrencavell/rupiah/issues"
+    "url": "https://github.com/darrencavell/rupiahku/issues"
   },
-  "homepage": "https://github.com/darrencavell/rupiah#readme",
+  "homepage": "https://github.com/darrencavell/rupiahku#readme",
   "devDependencies": {
     "mocha": "^6.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }
